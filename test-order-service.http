@@ -5,6 +5,7 @@ POST http://localhost:3000/orders
 Content-Type: application/json
 
 {
-  "product": "Cat Food",
-  "price": "59.99$"
+  "product": { "id": 1, "name": "Dog Food", "price": 19.99 },
+  "quantity": 2,
+  "totalPrice": 39.98
 }
